@@ -1,0 +1,16 @@
+version: 1
+generated_by: KeyClave planning phase
+
+repositories:
+  - name: infisical
+    upstream: https://github.com/Infisical/infisical.git
+    commit: f5a7dabff44e2be58f064da179716c25e495ab45
+    license_summary: "MIT-style with carve-outs (see upstream LICENSE). Avoid non-permissive subtrees (e.g., any enterprise-only directories if present)."
+    allowed_use: "reference + small MIT-only snippets (no crypto/business logic)"
+
+  - name: dotenv-vault
+    upstream: https://github.com/dotenv-org/dotenv-vault.git
+    commit: 6e8631b58793d5119a9ef0060fde254253c8259d
+    license_summary: "MIT"
+    allowed_use: "reference (format/workflow inspiration); no wholesale crypto copying"
+

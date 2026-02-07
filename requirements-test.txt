@@ -1,0 +1,30 @@
+# Testing dependencies for KeyClave
+
+# Core testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+pytest-timeout>=2.1.0
+
+# Qt testing
+pytest-qt>=4.2.0
+
+# Property-based testing
+hypothesis>=6.82.0
+
+# Mocking and fixtures
+pytest-mock>=3.11.0
+freezegun>=1.2.2
+
+# Security testing
+bandit>=1.7.5
+safety>=2.3.5
+
+# Code quality
+flake8>=6.0.0
+black>=23.7.0
+mypy>=1.4.1
+pylint>=2.17.5
+
+# Coverage reporting
+coverage[toml]>=7.2.7
